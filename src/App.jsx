@@ -1,10 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import { Button } from "./components/ui/button";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <div>Job Portal</div>;
+  return (
+    <div>
+      <Button>Login</Button>
+    </div>
+  );
 }
 
 export default App;
